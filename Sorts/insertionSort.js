@@ -1,7 +1,7 @@
 // Implementation of Insertion Sort in JavaScript for education purposes
 
 // Complexity
-// Time: 
+// Time: O(n^2)
 // Space: O(1)
 
 
