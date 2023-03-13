@@ -1,13 +1,13 @@
 // Implementation of Insertion Sort in JavaScript for education purposes
 
 // Complexity
-// Time: 
+// Time: O(n^2)
 // Space: O(1)
 
 
 function insertionSort(arr) {
 
-    // Outter loop tracks the current unsorted value we are inserting into our sorted portion
+    // Outer loop tracks the current unsorted value we are inserting into our sorted portion
     for (let i = 1; i < arr.length; i++) {
         let target = arr[i];
 

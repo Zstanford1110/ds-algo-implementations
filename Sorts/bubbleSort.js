@@ -7,7 +7,7 @@
 function bubbleSort(arr) {
 
 
-    // Outter loop keeps track of the values that are placed in sorted position
+    // Outer loop keeps track of the values that are placed in sorted position
     for (let i = arr.length - 1; i > 0; i--) {
         // Added swapped boolean for optimization
         let swapped = false;
