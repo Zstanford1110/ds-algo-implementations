@@ -6,7 +6,7 @@
 
 function selectionSort(arr) {
 
-    // Outter loop allows us to maintain which elements are in sorted position
+    // Outer loop allows us to maintain which elements are in sorted position
     for (let i = 0; i < arr.length; i++) {
         // At the beginning of every pass, set minimum equal to the index of the next unsorted value
         let minimum = i;

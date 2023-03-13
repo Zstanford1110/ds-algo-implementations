@@ -7,7 +7,7 @@
 
 function insertionSort(arr) {
 
-    // Outter loop tracks the current unsorted value we are inserting into our sorted portion
+    // Outer loop tracks the current unsorted value we are inserting into our sorted portion
     for (let i = 1; i < arr.length; i++) {
         let target = arr[i];
 
